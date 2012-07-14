@@ -14,6 +14,8 @@
 	uncommit = reset HEAD^
 	lol = log --graph --decorate --pretty=oneline --abbrev-commit
 	ctags = !git ls-files | ctags -L -
+	lxk = config --global user.email tyhall@lexmark.com
+	nolxk = config --global user.email tylerwhall@gmail.com
 [rerere]
 	enabled = 1
 [receive]

@@ -1,0 +1,21 @@
+[core]
+	excludesfile = "~/.gitignore"
+[user]
+	email = "tylerwhall@gmail.com"
+[merge]
+	tool = gvimdiff
+	conflictstyle = diff3
+        renamelimit = 99999
+[color]
+	diff = true
+	status = auto
+[alias]
+	dns = diff --name-status
+	uncommit = reset HEAD^
+	lol = log --graph --decorate --pretty=oneline --abbrev-commit
+[rerere]
+	enabled = 1
+[receive]
+	denyCurrentBranch = warn
+[apply]
+	whitespace = fix

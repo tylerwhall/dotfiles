@@ -13,6 +13,7 @@
 	dns = diff --name-status
 	uncommit = reset HEAD^
 	lol = log --graph --decorate --pretty=oneline --abbrev-commit
+	ctags = !git ls-files | ctags -L -
 [rerere]
 	enabled = 1
 [receive]

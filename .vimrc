@@ -1,3 +1,13 @@
+filetype off
+
+set rtp+=~/.vim/bundle/vundle
+call vundle#rc()
+
+" Dogfooding
+Plugin 'gmarik/vundle'
+
+filetype plugin indent on
+
 set autoindent
 set ts=8
 

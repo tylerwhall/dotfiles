@@ -38,7 +38,7 @@ set laststatus=2
 set ruler
 set rulerformat=%25([%{&fileformat}]%14(%l,%c%V%)%=%4P%)
 
-set backspace=2
+set backspace=indent,eol,start
 set hidden
 
 "Indent

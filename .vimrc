@@ -11,6 +11,7 @@ filetype plugin indent on
 set autoindent
 set ts=8
 
+" allow toggling between local and default mode
 function TabToggle()
   if &expandtab
     set shiftwidth=8

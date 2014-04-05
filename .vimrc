@@ -6,8 +6,19 @@ call vundle#rc()
 " Dogfooding
 Plugin 'gmarik/vundle'
 Plugin 'airblade/vim-gitgutter'
+Plugin 'altercation/vim-colors-solarized'
+Plugin 'bling/vim-airline'
 
 filetype plugin indent on
+
+" Colors
+if $COLORTERM == 'gnome-terminal'
+    set t_Co=256
+endif
+let g:solarized_termcolors=256
+let g:airline_theme='solarized'
+colorscheme solarized
+set background=dark
 
 set autoindent
 set ts=8

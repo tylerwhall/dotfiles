@@ -5,6 +5,7 @@ call vundle#rc()
 
 " Dogfooding
 Plugin 'gmarik/vundle'
+Plugin 'airblade/vim-gitgutter'
 
 filetype plugin indent on
 

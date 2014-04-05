@@ -40,10 +40,3 @@ set rulerformat=%25([%{&fileformat}]%14(%l,%c%V%)%=%4P%)
 
 set backspace=indent,eol,start
 set hidden
-
-"Indent
-set cindent
-set cinoptions=(0
-
-filetype plugin on
-filetype on

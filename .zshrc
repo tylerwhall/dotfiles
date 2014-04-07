@@ -46,6 +46,6 @@ alias ls='ls --color=auto'
 bindkey '^R' history-incremental-search-backward
 export PATH="$HOME/bin:$PATH"
 export EDITOR=vim
-if [[ "$COLORTERM" == "gnome-terminal" ]]; then
+if [ "$TERM" == "xterm" -a "$COLORTERM" == "gnome-terminal" ]; then
     export TERM="xterm-256color"
 fi
